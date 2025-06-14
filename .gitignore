@@ -1,0 +1,43 @@
+# Laravel core
+/vendor
+/node_modules
+/.env
+.env.*
+.env.backup
+.phpunit.result.cache
+.phpactor.json
+
+# Laravel storage (excluding storage/app/public if needed)
+storage/*.key
+/storage/app/*
+!/storage/app/public  # ← keep this if you use it for user uploads
+/storage/framework/*
+/storage/logs/*
+
+# IDE/editor clutter
+/.vscode
+/.idea
+/.phpunit.cache
+/.fleet
+/.zed
+
+# Laravel mix/build files
+/public/hot
+/public/storage
+/public/build
+
+# System files
+.DS_Store
+Thumbs.db
+npm-debug.log
+yarn-error.log
+
+# Homestead/Vagrant
+Homestead.json
+Homestead.yaml
+
+# Nova (if used)
+/.nova
+
+# Optional Composer auth file
+auth.json
